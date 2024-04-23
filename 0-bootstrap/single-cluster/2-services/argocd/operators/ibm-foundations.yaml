@@ -19,10 +19,11 @@ spec:
     path: operators/ibm-foundations
     helm:
       values: |
+        global: {}
         ibm-common-services:
           subscriptions:
             subscription:
-              channel: v4.5
+              channel: v4.6
               config:
                 resources: {}
               installPlanApproval: Automatic
